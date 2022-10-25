@@ -1,0 +1,11 @@
+a= int(input())
+b= int(input())
+c= int(input())
+
+if a<b<c: print("%d"% a,b,c)
+elif b<c<a: print("%d"% b,c,a)
+elif c<a<b: print("%d"% c,a,b)
+elif b<c<a: print("%d"% b,c,a)
+elif a<c<b: print("%d"% a,c,b)
+elif c<b<a: print("%d"% c,b,a)
+elif b<a<c: print("%d"% b,a,c)
